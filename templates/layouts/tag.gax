@@ -1,0 +1,22 @@
+---
+layout: base
+---
+<article class="card p-5 text-center">
+<h1>Tag: {{ tag }}</h1>
+<div class="row">
+{% for post in posts %}<a class="col-lg-4 p-1" 
+href="{{ post.url }}">
+<div class="p-2">
+{% if post.image %}
+<img class="img-fluid" alt="{{ post.title }}" width="100%" height="100%"
+src="{{ post.image }}"/>
+{% endif %}
+<h3>{{ post.title }}</h3>
+<p class="text-dark">{{post.description}}</p>
+</div>
+</a>{% endfor %}
+<div class="col-12 p-3">
+<a href="/tags/" class="btn btn-primary btn-sm">Explore All Tags</a>
+</div>
+</div>
+</article>

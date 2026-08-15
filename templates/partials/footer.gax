@@ -1,0 +1,32 @@
+<footer class="footer p-1 bg-primary rounded-5 mt-3">
+<div class="row p-2">
+<div class="col-lg-2 col-3 p-5">
+<img class="img-fluid" alt="{{config.title}}" 
+loading="lazy" width="100%" hwight="100%"
+src="{{footer.image}}">
+</div>
+
+<div class="col-lg-4 col-9 p-5">
+<h3 class="text-white mb-3">{{config.footer.title}}</h3>
+<p class="text-white">{{config.footer.about}}</p>
+</div>
+
+<div class="col-lg-3 col-6 p-5">
+<h3 class="text-white mb-3">{{config.footer.item1.title}}</h3>
+      {% for n in config.footer.item1.list %}
+      <p><a href="{{n.url}}">{{n.name}}</a></p>
+      {% endfor %}
+</div>
+<div class="col-lg-3 col-6 p-5">
+<h3 class="text-white mb-3">{{config.footer.item2.title}}</h3>
+      {% for n in config.footer.item2.list %}
+      <p><a href="{{n.url}}" taregt="_blank"><small>{{n.name}}</small></a></p>
+      {% endfor %}
+</div>
+</div>
+</footer>
+
+<p class="text-center p-2">
+{{config.site_name}} Built with <strong><a class="text-dark" href="https://gax.axcora.com">GAX</strong></a>
+</p>
+<script src="https://cdn.jsdelivr.net/npm/axcora-js@1.0.1/axcora.min.js" defer></script>

@@ -1,0 +1,10 @@
+<section class="hero">
+  <div class="hero-content">
+    <h1><a href="{{url}}" class="text-white">{{hero.title}}</a></h1>
+    <p>{{hero.desc}}</p>
+    <div class="hero-actions">
+      <a href="{{hero.button1.url}}" class="btn btn-danger">{{hero.button1.text}}</a>
+      <a href="{{hero.button2.url}}" class="btn btn-dark">{{hero.button2.text}}</a>
+    </div>
+  </div>
+</section>

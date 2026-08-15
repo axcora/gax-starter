@@ -1,0 +1,7 @@
+---
+layout: base
+---
+{% include "hero" %}
+{% include "info" %}
+{% include "content" %}
+{% include "blog" %}

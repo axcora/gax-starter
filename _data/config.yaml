@@ -1,0 +1,82 @@
+title: GAX
+description: GAX SSG
+site_name: GAX GO Static Site Generator
+url: http://localhost:8080
+image: /image/go-ssg4.webp
+favicon: /image/golang.svg
+lang: en
+locale: en_US
+author: axcora
+dateModified: 2026-08-15
+robots: index,follow
+
+navbar: 
+  title: GAX
+  list:
+    - name: Home
+      url: /
+    - name: Blog
+      url: /blog/
+    - name: About
+      url: /about/
+    - name: Tags
+      url: /tags/
+    - name: Docs
+      url: https://gax.axcora.com/docs/
+    - name: Hire Us
+      url: https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll
+    - name: Download
+      url: https://creativitaz.gumroad.com/l/gax
+    - name: Github
+      url: https://github.com/mesinkasir/gax
+
+widget: 
+  blog: 
+    title: Update Posts
+    button: Explore All Article
+    url: /blog/
+
+footer: 
+  image: /image/golang.svg
+  title: GAX SSG
+  about: Gax is a statcic site generator build in go, to help you develop your site fast secure and SEO !! GAX - Go by AXcora
+  item1: 
+    title: Navigation
+    list: 
+      - name: Home
+        url: /starter/
+      - name: Blog
+        url: /blog/
+      - name: About
+        url: /about/
+      - name: Tags
+        url: /tags/
+      - name: Docs
+        url: https://gax.axcora.com/docs/
+      - name: Download
+        url: https://creativitaz.gumroad.com/l/gax
+      - name: Github
+        url: https://github.com/mesinkasir/gax
+      - name: Hire Us
+        url: https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll
+  item2: 
+    title: Projects
+    list: 
+      - name: AXCORA SSG
+        url: https://ssg.axcora.com
+      - name: AX SSG
+        url: https://ax.axcora.com
+      - name: BAX SSG
+        url: https://bax.axcora.com
+      - name: CAX SSG
+        url: https://cax.axcora.com
+      - name: DAX SSG
+        url: https://dax.axcora.com
+      - name: LUAX SSG
+        url: https://luax.axcora.com
+      - name: PYCORA SSG
+        url: https://pycora.axcora.com
+      - name: ONTA SSG
+        url: https://onta.axcora.com
+      - name: MARKDOWNUTS
+        url: https://markdownuts.axcora.com

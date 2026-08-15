@@ -1,0 +1,20 @@
+---
+layout: base
+---
+<article class="card p-5">
+<h1><a href="{{ post.url }}">
+{{ title }}</a></h1>
+<h2 class="text-base mb-2">{{description}}</h2>
+{% if image %}
+<img class="img-cover" alt="{{title}}" width="100%" height="100%" 
+src="{{image}}"/>
+{% endif %}
+<div class="p-3">
+{% if has_toc %}
+<div class="toc card p-3">
+{{ toc }}
+</div>
+{% endif %}
+{{ content }}
+</div>
+</article>

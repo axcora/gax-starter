@@ -1,0 +1,15 @@
+body{
+    max-width:800px;
+    margin:auto;
+    padding: 20px;
+}
+a {text-decoration: none; }
+.text-white {color:aliceblue;}
+.footer {border-radius: 20px;}
+article a {color:blueviolet;}
+.vio {color:blueviolet;}
+.img-cover {width: 100%; height: 220px; object--fit:cover; border-radius:10px; margin: 20px 0 20px 0;}
+.text-dark {color:rgb(35, 33, 33);}
+img, iframe {max-width:100%;}
+.toc ul {margin-left: 20px; padding: 5px;}
+.toc {margin-bottom: 12px;}

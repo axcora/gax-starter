@@ -1,0 +1,12 @@
+<section class="row">
+{% for f in section %}
+<div class="col-lg-6 p-3">
+<div class="card p-3">
+{% if f.image %}<img class="img-fluid mb-2 ms-1" width="60" height="60" alt="{{f.title}}" loading="lazy" src="{{f.image}}"/>{% endif %}
+<h3><a href="{{url}}" class="vio">{{f.title}}</a></h3>
+<p>{{f.text}}</p>
+{% if f.cta.url %}<a href="{{f.cta.url}}" class="btn btn-primary mt-2">{{f.cta.text}}</a>{% endif %}
+</div>
+</div>
+{% endfor %}
+</section>

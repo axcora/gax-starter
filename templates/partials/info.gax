@@ -1,0 +1,24 @@
+<section class="row">
+
+<div class="col-lg-4 p-3">
+<div class="card p-3">
+<h3><a class="vio" href="{{url}}">{{info1.title}}</a></h3>
+<p>{{info1.text}}</p>
+</div>
+</div>
+
+<div class="col-lg-4 p-3">
+<div class="card p-3">
+<h3><a class="vio" href="{{url}}">{{info2.title}}</a></h3>
+<p>{{info2.text}}</p>
+</div>
+</div>
+
+<div class="col-lg-4 p-3">
+<div class="card p-3">
+<h3><a class="vio" href="{{url}}">{{info3.title}}</a></h3>
+<p>{{info3.text}}</p>
+</div>
+</div>
+
+</section>

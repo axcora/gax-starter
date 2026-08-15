@@ -1,0 +1,18 @@
+# binary output
+/gax
+/gax.exe
+*.exe
+/dist/
+/site/
+/bin/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+.env
+
+baca.md

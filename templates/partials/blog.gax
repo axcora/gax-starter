@@ -1,0 +1,31 @@
+<section class="card p-3">
+<div class="row">
+
+<div class="col-lg-8 col-12 p-3">
+<h3>{{config.widget.blog.title}}</h3>
+</div>
+
+<div class="col-lg-4 col-12 text-end p-3">
+<a href="{{config.widget.blog.url}}" 
+class="btn btn-sm btn-primary">
+{{config.widget.blog.button}}</a>
+</div>
+
+{% for post in collections.blog limit:3 %}
+<div class="col-lg-4 p-1">
+<a href="{{post.url}}" class="card p-3">
+{% if config.image %}
+<img class="img-fluid mb-3" alt="{{post.title}}" width="100%" height="100%" loading="lazy"
+src="{{post.image or config.image}}"/>
+{% endif %}
+<h3 class="text-primary mb-2">{{post.title}}</h3>
+{% if post.description %}
+<p>{{post.description}}</p>
+{% endif %}
+</a>
+</div>
+{% endfor %}
+
+
+</div>
+</section>

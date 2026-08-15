@@ -1,0 +1,31 @@
+---
+layout: base
+---
+<article class="card p-5">
+<div class="text-center mb-5">
+<h1><a href="{{post.url}}">{{ title }}</a></h1>
+<h2>{{ description }}</h2>
+</div>
+<div class="row">
+{% for post in pagination.items by:date %}
+<a href="{{ post.url }}" 
+class="col-lg-4 col-12 p-2 mb-1">
+{% if post.image %}
+<img class="img-fluid" alt="{{post.title}}" width="100%" height="100%" 
+src="{{post.image}}"/>
+{% endif %}
+<h2 class="text-base">{{ post.title }}</h2>
+<div class="text-dark">
+<p><small>{{ post.date }}</small></p>
+<p>{{post.description}}</p>
+</div>
+</a>
+{% endfor %}
+
+<div class="col-lg-12 p-3 text-center">
+{% if pagination.prev_url %}<a class="me-3" href="{{ pagination.prev_url }}">← Prev</a>{% endif %}
+Page {{ pagination.current_page }} / {{ pagination.total_pages }}
+{% if pagination.next_url %}<a class="ms-3"href="{{ pagination.next_url }}">Next →</a>{% endif %}
+</div>
+<div>
+</article>
