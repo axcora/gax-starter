@@ -140,7 +140,7 @@ See `.github/workflows/deploy-cpanel.yml.example` and `deploy-vps.yml.example`
 
 Run Starter Demo: [https://gax.axcora.com/starter/](https://gax.axcora.com/starter/)
 
-Offciail Site: [https://gax.axcora.com/](https://gax.axcora.com/)
+Official Site: [https://gax.axcora.com/](https://gax.axcora.com/)
 
 Documentation: [https://gax.axcora.com/docs/](https://gax.axcora.com/docs/)
 
