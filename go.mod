@@ -1,3 +1,3 @@
-module github.com/axcora/gax
+module github.com/mesinkasir/gax
 
 go 1.22
