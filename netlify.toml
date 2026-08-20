@@ -1,6 +1,6 @@
 [build]
   command = "go build -o gax ./cmd/gax && ./gax build"
-  publish = "dist"
+  publish = "site"
 
 [build.environment]
   GO_VERSION = "1.22"
