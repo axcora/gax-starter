@@ -1,6 +1,6 @@
 {
-  "installCommand": "go mod tidy",
-  "buildCommand": "export PATH=$PATH:/usr/local/go/bin:/opt/go/bin:/go/bin && go build -o gax./cmd/gax &&./gax build",
+  "installCommand": "curl -sL https://go.dev/dl/go1.22.5.linux-amd64.tar.gz | tar -xz -C /tmp && /tmp/go/bin/go mod tidy",
+  "buildCommand": "/tmp/go/bin/go build -o gax ./cmd/gax && ./gax build",
   "outputDirectory": "site",
   "framework": null
 }
