@@ -1,7 +1,7 @@
 title: GAX
 description: GAX SSG
 site_name: GAX GO Static Site Generator
-url: http://localhost:8080
+url: https://gax-starter.vercel.app/
 image: /image/go-ssg4.webp
 favicon: /image/golang.svg
 lang: en
