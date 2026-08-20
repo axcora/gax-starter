@@ -1,5 +1,5 @@
 {
-  "buildCommand": "go build -o gax ./cmd/gax && ./gax build",
-  "outputDirectory": "dist",
+  "buildCommand": "go build -o gax./cmd/gax &&./gax build",
+  "outputDirectory": "site",
   "framework": null
 }
